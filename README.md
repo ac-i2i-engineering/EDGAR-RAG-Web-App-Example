@@ -1,6 +1,8 @@
 # EDGAR RAG
 EDGAR RAG (Retrieval-Augmented Generation) is a web interface designed to efficiently retrieve and present data from SEC filings, specifically the 10-Q and 10-K forms available through the EDGAR database. The application leverages a RAG fine-tuned on Llama 3.1 8B to provide accurate and contextually relevant information from these financial documents.
 
+The app is deployed [here](https://secsleuth.neobloom.com/).
+
 ## Features
 - Advanced Search: Quickly retrieve relevant data from 10-Q and 10-K filings using a powerful search engine backed by a vector database.
 - Contextual Answers: The RAG model generates precise answers based on the context provided in SEC filings, reducing the need to manually sift through documents.
